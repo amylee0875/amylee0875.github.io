@@ -1,0 +1,23 @@
+h1 {
+    color: black;
+    background-color: yellow;  
+}
+
+p{
+    font-size 35px;
+    font-family:fantasy; 
+    font-weight: normal; 
+    font-style: oblique;
+}
+
+#paragraph {
+    background-color: red; 
+}
+
+.bluecolor {
+    color: blue
+}
+
+img {
+    opacity: 0.5;
+}
