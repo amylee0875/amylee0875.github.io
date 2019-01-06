@@ -1,0 +1,40 @@
+h1 {
+    color: black;
+    background-color: beige;  
+}
+
+p  {
+    font-size 35px;
+    font-family:consolas; 
+    font-weight: normal; 
+    font-style: normal;
+}
+
+p {
+    color: black; 
+    background-color: whitesmoke; 
+}
+
+li {
+    font-size: 15px;
+    font-family:consolas;
+    font-weight: normal;
+    font-style: oblique;
+}
+
+li {
+    color: black; 
+    background-color: lightgoldenrodyellow; 
+}
+
+table {
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+}
+
+table {
+    color: black; 
+    background-color: goldenrod; 
+}
