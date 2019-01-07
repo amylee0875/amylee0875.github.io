@@ -58,7 +58,7 @@ ol {
 
 table, th, td{
     border: 1px solid black; 
-}
+} 
 
 table {
     border-collapse: collapse; 
@@ -67,9 +67,29 @@ table {
 .link, .link:visited {
     text-decoration: none; 
     color: black; 
+    transition: all 0.1s; 
 }
 
 .link:hover {
     color: gold; 
-    font-size 15px; 
+    font-size: 20px; 
+}
+
+.margin {
+    margin: 50px;
+}
+
+.button {
+    font-family: sans-serif; 
+    border: 3px solid black; 
+    border-radius: 10px;
+    color: lightskyblue; 
+    padding: 10px 20px; 
+    text-decoration: none
+    transition: all 0.4s;  
+}
+
+.button:hover {
+    background-color: rgb(147, 226, 236);
+    color: white;
 }
