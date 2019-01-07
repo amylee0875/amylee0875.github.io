@@ -34,7 +34,37 @@ table {
     font-style: normal; 
 }
 
+#yellowbackground {
+    background-color: yellow;
+}
+
+.boxmodel {
+    border: blue 20px solid;
+    padding: 10px 20px 30px 40px;  
+    margin: 50px; 
+}
+
+.allign {
+    text-align: right;  
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: none; 
+}
+
+table, th, td{
+    border: 1px solid black; 
+}
+
 table {
+    border-collapse: collapse; 
+}
+
+.link {
+    text-decoration: none; 
     color: black; 
-    background-color: goldenrod; 
 }
