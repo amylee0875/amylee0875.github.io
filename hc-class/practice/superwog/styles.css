@@ -1,0 +1,79 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-link:hover {
+    border-bottom: 2px solid white; 
+}
+
+/* Main Image Section */ 
+.main {
+    background-image: url (___))
+    background-size: cover;
+    height: 600px; 
+}
+
+.main-header {
+    color: white;
+    font-size: 70px;
+}
+
+.main-description {
+    color: white;
+    font-size: 40px;
+    text-allign: center; 
+}
+
+
+
+
+* Character Card Section */
+card-section {
+    display: flex;
+    justify-content: space-around
+
+
+    card-item: {
+        border: 2px solid #424242;
+        width: 30%; 
+    }

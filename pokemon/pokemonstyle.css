@@ -1,6 +1,7 @@
+
 h1 {
-    color: black;
-    background-color: beige;  
+    color: white;
+    background-color:black;  
 }
 
 p  {
@@ -10,21 +11,11 @@ p  {
     font-style: normal;
 }
 
-p {
-    color: black; 
-    background-color: whitesmoke; 
-}
-
 li {
     font-size: 15px;
     font-family:consolas;
     font-weight: normal;
     font-style: oblique;
-}
-
-li {
-    color: black; 
-    background-color: lightgoldenrodyellow; 
 }
 
 table {
@@ -44,52 +35,30 @@ table {
     margin: 50px; 
 }
 
-.allign {
-    text-align: right;  
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between; 
+    width: 1000px; 
+    margin: 0 auto; 
+    height: 44px; 
 }
 
-ul {
-    list-style-type: square;
+.nav-item {
+    margin: auto; 
 }
 
-ol {
-    list-style-type: none; 
-}
-
-table, th, td{
-    border: 1px solid black; 
-} 
-
-table {
-    border-collapse: collapse; 
-}
-
-.link, .link:visited {
+.nav-link {
     text-decoration: none; 
-    color: black; 
-    transition: all 0.1s; 
+    color: #EEEEEE; 
+    font-size: 14px;
+    transition: all 0.2s;  
 }
 
-.link:hover {
-    color: gold; 
-    font-size: 20px; 
+.nav-link:hover{
+    opacity: 0.7;
 }
 
-.margin {
-    margin: 50px;
-}
-
-.button {
-    font-family: sans-serif; 
-    border: 3px solid black; 
-    border-radius: 10px;
-    color: lightskyblue; 
-    padding: 10px 20px; 
-    text-decoration: none
-    transition: all 0.4s;  
-}
-
-.button:hover {
-    background-color: rgb(147, 226, 236);
-    color: white;
+.icon {
+    font-size: 0.7cm 
 }
