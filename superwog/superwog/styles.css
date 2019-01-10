@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Verdana", sans-serif; /* "Arial" */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Nav Section */
+.nav-color {
+    background-color: #424242;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.nav-header {
+    color: white;
+    font-size: 25px;
+    font-family: "Papyrus";
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Main Image Section */
+.main {
+    background-image: url(images/bg.png);
+    background-size: cover;
+    height: 600px;
+    padding-top: 400px;
+}
+
+.main-header {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-family: "Papyrus"
+}
+
+.main-description {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Character Card Section */
+.card-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-item {
+    border: 2px solid #424242;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-description {
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+}
