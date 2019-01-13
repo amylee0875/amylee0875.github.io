@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: cursive; 
+}
+
+body, html {
+    height: 100%;  
+}
+
+.wrapper {
+    height: 100%; 
+    display: grid; 
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 60px 1fr 30px;
+}
+
+.header {
+    background-color: lightgoldenrodyellow; 
+    grid-column: 1 / 3; 
+    grid-row: 1 / 2; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.header p {
+    font-weight: bold; 
+    font-size: 1cm; 
+}
+
+.sidebar {
+    background-color: sandybrown;   
+    grid-column: 1 / 2; 
+    grid-row: 2 / 3; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.sidebar div {
+    padding: 10px 5px;
+    text-align: center;
+    transition: all .3s; 
+}
+
+.sidebar div:hover {
+    background-color: burlywood;
+    color: brown; 
+}
+
+.content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-image: url("http://images6.fanpop.com/image/photos/40600000/Spongebob-and-Patrick-spongebob-squarepants-40633730-1920-1080.jpg");
+    background-position: center;
+    background-size: cover; 
+}
+
+.footer {
+    background-color: whitesmoke;   
+    grid-column: 1 / 3; 
+    grid-row: 3 / 4; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+    
+.footer p {
+    font-size: 0.45cm;
+    color: gray; 
+}
