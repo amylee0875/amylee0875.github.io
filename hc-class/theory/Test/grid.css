@@ -1,0 +1,16 @@
+#grid { 
+    width: 400px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 8fr);
+    grid-gap: 6px;
+    }
+
+  #grid > div {
+    font-size: 10vw;
+    padding: .6em;
+    background: black; 
+    text-align: center;
+
+.grid-template-rows:
