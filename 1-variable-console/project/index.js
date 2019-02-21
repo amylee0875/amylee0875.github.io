@@ -1,3 +1,4 @@
+
 var database = [
     {
         image: "https://www.unilad.co.uk/wp-content/uploads/2018/08/the-sixth-sense-1.jpg",
@@ -21,13 +22,18 @@ var quoteDiv = document.querySelector('.quote');
 var personDiv = document.querySelector('.person'); 
 
 function selectRandom() {
-    var randomNumber = Math.floor(Math.random() * database.length
+    var randomNumber = Math.floor(Math.random() * database.length);
     return randomNumber; 
 }
 
 function refreshPage() {
-    var randomNumber = selectRandom ();
-    var randomobject = database[randomnumber];
+    var randomNumber = selectRandom();
+    var randomObject = database[randomNumber];
+    console.log(randomObject);
+    quoteDiv.innerHTML = randomObject.quote; 
+    personDiv.innerHTML = randomObject.person;
 
+    mainDiv.style.backgroundImage = `url(${randomObject.image})` 
 }
 
+refreshPage();  
