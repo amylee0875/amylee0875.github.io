@@ -15,4 +15,19 @@ var database = [
         person: "Jack Torrance", 
     }
 ]
-    
+
+var mainDiv = document.querySelector('.main'); 
+var quoteDiv = document.querySelector('.quote'); 
+var personDiv = document.querySelector('.person'); 
+
+function selectRandom() {
+    var randomNumber = Math.floor(Math.random() * database.length
+    return randomNumber; 
+}
+
+function refreshPage() {
+    var randomNumber = selectRandom ();
+    var randomobject = database[randomnumber];
+
+}
+
