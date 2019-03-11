@@ -22,11 +22,11 @@
 
 .quote {
     font-size: 70px;
-    color: white;
+    color: whites;
 }
 
 .person {
-    color: white;
+    color: black; 
 }
 
 .section1 {
@@ -34,14 +34,12 @@
 }
 
 .button {
-    padding: 10px 20px;
-    border: solid 3px white;
+    padding: 10px 20px; 
+    border: solid 3px black;
     text-decoration: none;
-    color: white;
-    transition: all .3s;
+    color: green;
+    transition: all .5s;
 }
 
-.button:hover {
-    background-color: white;
-    color: black;
-}
+ 
+
